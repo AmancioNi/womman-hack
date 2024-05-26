@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>She Connect</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>She Connect</h1>
+    <ul>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#women-in-tech">Mulheres na Tecnologia</a></li>
+      <li><a href="#community-importance">Comunidade</a></li>
+      <li><a href="#mission-vision-values">Missão/Visão/Valores</a></li>
+      <li><a href="register.html">Cadastre-se</a></li>
+      <li><a href="login.html">Login</a></li>
+
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Bem-vinda ao She Connect</h1>
+    <p>A rede social das mulheres na tecnologia</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Sobre Mulheres na Tecnologia</h2>
+    <p>No cenário tecnológico em constante evolução, a presença e participação das mulheres desempenham um papel crucial. Ao longo da história, mulheres visionárias têm contribuído significativamente para os avanços tecnológicos que moldam o mundo moderno. Desde Ada Lovelace, a pioneira da programação de computadores, até Grace Hopper, que revolucionou a linguagem de programação, as mulheres têm deixado sua marca indelével na indústria da tecnologia.</p>
+    <p>A tecnologia é um campo vasto e em constante evolução, e as mulheres têm desempenhado papéis fundamentais nessa área. No She Connect, celebramos essas conquistas e incentivamos a próxima geração de mulheres a seguir seus sonhos tecnológicos.</p>
+  </section>
+
+  <section id="women-in-tech" class="women-in-tech">
+    <h2>Mulheres na Tecnologia</h2>
+    <div class="cards">
+      <div class="card" onclick="showDescription('ada')">
+        <img src="adalovelace.webp" style="height: 200px; border-radius: 5px;" alt="Ada Lovelace">
+        <h3>Ada Lovelace</h3>
+        <div class="description" id="ada">
+          <p>Ada Lovelace é conhecida como a primeira programadora de computadores do mundo por seu trabalho no primeiro algoritmo destinado a ser processado por uma máquina.</p>
+        </div>
+      </div>
+      <div class="card" onclick="showDescription('grace')">
+        <img src="/grace-hopper-blog-da-engenharia-4.jpg" style="height: 250px; border-radius: 16px;"  alt="Grace Hopper">
+        <h3>Grace Hopper</h3>
+        <div class="description" id="grace">
+          <p>Grace Hopper foi uma pioneira da ciência da computação, desenvolvendo o primeiro compilador para uma linguagem de programação e popularizando a ideia de linguagens de programação independentes de máquina.</p>
+        </div>
+      </div>
+      <div class="card" onclick="showDescription('roberta')">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTy-ZPXrMUMgFAZU7iB2gO9GJ80rFInMONnGv24l5QA4HjKFu3G" style="height: 250px; border-radius: 16px;" alt="Roberta Williams">
+        <h3>Roberta Williams</h3>
+        <div class="description" id="roberta">
+          <p>Roberta Williams é uma das fundadoras da Sierra On-Line e uma das designers de jogos mais influentes na indústria de jogos de aventura, conhecida por seu trabalho na série King's Quest.</p>
+        </div>
+      </div>
+      <div class="card" onclick="showDescription('carol')">
+        <img src="https://tecnogirl.tecnocampus.cat/wp-content/uploads/sites/15/2020/12/carol_shaw-m.jpg" style="height: 200px; border-radius: 10px;"  alt="Carol Shaw">
+        <h3>Carol Shaw</h3>
+        <div class="description" id="carol">
+          <p>Carol Shaw é considerada a primeira mulher desenvolvedora de videogames, conhecida por seu trabalho no jogo River Raid para o Atari 2600.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="community-importance" class="community-importance">
+    <h2>Importância da Comunidade</h2>
+    <div class="community-content">
+      <img src="/undraw_online_resume_re_ru7s.svg" style="height: 450px;" alt="Community Image">
+      <p>A nossa comunidade é um espaço seguro e acolhedor onde mulheres na tecnologia podem se conectar, compartilhar conhecimento e apoiar umas às outras. Junte-se a nós e faça parte de uma rede que celebra e promove o sucesso das mulheres na tecnologia.
+      Na She Connect, entendemos que a paixão pelos jogos vai muito além da tela. É sobre a conexão entre pessoas com os mesmos interesses, os mesmos desafios e a mesma alegria. Nossa comunidade é o ponto de encontro para mulheres que compartilham o amor pela tecnologia, pela inovação e, é claro, pelos jogos!
+      Aqui, você encontrará amigas que entendem o significado de conquistar um nível difícil, que valorizam o trabalho em equipe em raids épicos e que celebram cada vitória, seja nos campos de batalha ou nas arenas virtuais.
+      Junte-se a nós e faça parte de uma rede vibrante, onde cada conquista é celebrada, cada desafio é superado em conjunto e onde você sempre encontrará alguém para compartilhar suas experiências, estratégias e, é claro, aquele momento épico do jogo que só quem vive no mundo dos games pode entender!
+    </div>
+   
+   
+    </div>
+  </section>
+
+  <section id="mission-vision-values" class="mission-vision-values">
+    <h2>Missão, Visão e Valores</h2>
+    <div class="mvv-container">
+      <div class="mvv-item">
+        <p><strong>Missão:</strong> Empoderar mulheres na tecnologia através da conexão, educação e suporte mútuo.</p>
+      </div>
+      <div class="mvv-item">
+        <p><strong>Visão:</strong> Ser a principal rede social para mulheres na tecnologia, promovendo igualdade e inovação.</p>
+      </div>
+      <div class="mvv-item">
+        <p><strong>Valores:</strong> Inclusão, suporte, inovação, e empoderamento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup" class="signup-form">
+    <h2>Cadastre-se</h2>
+    <button type="button" onclick="location.href='cadastro.html'">Cadastrar</button>
+  </section>
+
+  <footer class="footer">
+    <p>Siga-nos nas redes sociais</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

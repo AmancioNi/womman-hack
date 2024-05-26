@@ -1,0 +1,120 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.ftco-section {
+  padding: 7em 0;
+}
+
+.btn-primary {
+  background-color: #ff69b4; /* Cor rosa */
+  border-color: #ff69b4; /* Cor rosa */
+}
+
+.btn-primary:hover {
+  background-color: #d450a3; /* Rosa mais escuro */
+  border-color: #d450a3; /* Rosa mais escuro */
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff69b4; /* Cor rosa */
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-icon:hover {
+  background-color: #d450a3; /* Rosa mais escuro */
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 30px;
+}
+
+.label {
+  font-weight: bold;
+  color: #ff69b4; /* Cor rosa */
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px; /* Aumento do padding */
+  border: 1px solid #ff69b4; /* Cor rosa */
+  border-radius: 5px;
+}
+
+.submit {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Text Wrap */
+.text-wrap {
+  background-color: #ff69b4; /* Cor rosa */
+  color: #fff;
+  padding: 70px 50px; /* Ajuste de altura e largura */
+}
+
+.text h2 {
+  font-size: 32px; /* Aumento do tamanho da fonte */
+  font-weight: bold;
+  margin-bottom: 30px; /* Aumento do espaço inferior */
+}
+
+.text p {
+  font-size: 18px; /* Aumento do tamanho da fonte */
+}
+
+/* Login Wrap */
+.login-wrap {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 40px 50px; /* Ajuste de altura e largura */
+  max-width: 600px; /* Aumento da largura */
+  margin: auto; /* Centralizando */
+}
+
+.login-wrap h3 {
+  font-size: 28px; /* Aumento do tamanho da fonte */
+  font-weight: bold;
+  margin-bottom: 30px; /* Aumento do espaço inferior */
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  .wrap {
+    flex-direction: column-reverse;
+  }
+
+  .text-wrap {
+    order: -1;
+  }
+}

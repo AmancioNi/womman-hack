@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 200px;
+}
+
+.forum {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.chat-box {
+    height: calc(100vh - 250px); /* Alterada a altura do chat */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.input-box {
+    display: flex;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.input-box button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar-left, .sidebar-right {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 5px;
+}
